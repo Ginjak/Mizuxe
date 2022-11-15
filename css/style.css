@@ -1,2 +1,38 @@
-body{margin-top:105px}.navbar{box-shadow:2px 2px 5px #3292a6;opacity:0.9;background:#fff}.navbar .nav-item{font-size:1.4rem;padding-right:1.4rem}#showcase{background:url(/img/mountains.jpg);background-size:cover;background-repeat:no-repeat;background-attachment:fixed;min-height:600px}#showcase .primary-overlay{background:rgba(50,140,166,0.8)}@media (max-width: 768px){#showcase{min-height:500px}#showcase h1{font-size:3rem}}.test-div{height:400px;background:redd;display:flex;justify-content:center;align-items:center}.test-div a{position:relative;padding:10px 15px;text-decoration:none}.test-div a:before{content:"";position:absolute;top:0;left:0;height:100%;width:100%;transform:scaleX(-1);border-left:1px solid red;transition:transform 1s, border-color 1s}.test-div a:after{content:"";position:absolute;top:0;left:0;height:100%;width:100%;transform:scaleX(-1);border-right:1px solid red;transition:transform 1s, border-color 1s}.test-div a:hover:before{transform:scaleX(1);border-left:1px solid green}.video-test{width:100vw;position:relative;height:100px}.video-bg{position:absolute;top:0;left:0;min-width:100%;min-height:100%}.card--full-video{display:grid;grid-template-columns:1fr;align-items:start}.card--full-video{position:relative}.card{max-width:100%;width:100%}.card--full-video .content-container--right{justify-content:center}.card--full-video .content-container{display:grid;grid-column:1;grid-row:1}.card--full-video .content-container{padding:1.875rem 1.875rem;z-index:10;position:relative;align-self:center}.card--full-video .video-container{height:23.4375rem;overflow:hidden;z-index:5}.video-container{position:relative}.card--full-video .video-container .video-bg-card{width:auto;transform:translateX(-50%) translateY(-50%);top:50%;left:50%;min-height:100%;min-width:101%;position:absolute;object-fit:cover}.hero-video-wraper{min-height:720px;position:relative;overflow:hidden}.hero-video-wraper .hero-video-bg{position:fixed;height:720px;left:0;right:0;overflow:hidden;z-index:-100}.hero-video-wraper .hero-video-bg .video-bg{position:absolute;left:50%;transform:translateX(-50%) translateY(-50%);min-width:100%;min-height:100%;height:auto;top:50%}.hero-video-wraper .hero-video-button{position:absolute;top:15px;left:15px;display:inline-block;background:#fff;font-family:"Gotham", Sans-serif;font-size:16px;font-weight:bold;border:2px solid #000;padding:10px 15px;border-radius:0;color:#000}.hero-video-wraper .hero-video-button .volume-muted span,.hero-video-wraper .hero-video-button .volume-unmuted span{margin-left:10px}.hero-video-wraper .hero-video-button:hover{background:#000;color:#fff}.hero-video-wraper .hero-video-button{background:red "important"}.is-muted{display:none}.is-unmuted{display:block}
-/*# sourceMappingURL=style.css.map */
+body {
+  margin-top: 105px; }
+
+.navbar {
+  box-shadow: 2px 2px 5px #3292a6;
+  opacity: 0.9;
+  background: #fff; }
+  .navbar .nav-item {
+    font-size: 1.4rem;
+    padding-right: 1.4rem; }
+
+#showcase {
+  background: url(/img/mountains.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 600px; }
+  #showcase .primary-overlay {
+    background: rgba(50, 140, 166, 0.8); }
+
+#accordion .card {
+  border-radius: 0; }
+
+#authors img {
+  margin-top: -50px; }
+#authors .card .fab {
+  color: #3292a6; }
+#authors .card:hover {
+  background: #3292a6;
+  color: #fff; }
+  #authors .card:hover .fab {
+    color: #fff; }
+
+@media (max-width: 768px) {
+  #showcase {
+    min-height: 500px; }
+    #showcase h1 {
+      font-size: 3rem; } }

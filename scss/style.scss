@@ -26,6 +26,29 @@ body {
   }
 }
 
+#accordion .card {
+  border-radius: 0;
+}
+
+#authors {
+  img {
+    margin-top: -50px;
+  }
+  .card {
+    .fab {
+      color: $primary;
+    }
+  }
+  .card:hover {
+    background: $primary;
+    color: #fff;
+
+    .fab {
+      color: #fff;
+    }
+  }
+}
+
 @media (max-width: 768px) {
   #showcase {
     min-height: 500px;
@@ -33,12 +56,4 @@ body {
       font-size: 3rem;
     }
   }
-}
-
-.not {
-  background: red;
-}
-
-.one-more testing {
-  background: red;
 }
