@@ -522,21 +522,7 @@
       document.getElementById("year").innerHTML = new Date().getFullYear();
 
       // Init Scrollspy
-      $('body').scrollspy({target: 'main-nav'});
-
-      // Smooth Scrolling
-      $("#main-nav a").on('click', function (event) {
-        if (this.has !== "") {
-          event.preventDefault();
-          const hash = this.hash;
-
-          $('html, body').animate({
-            scrollTop: $(hash).offset().top
-          }, 800 function() {
-            window.location.hash = hash;
-          });
-        }
-      });
+      $("body").scrollspy({ target: "main-nav" });
     </script>
   </body>
 </html>
